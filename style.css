@@ -13,12 +13,35 @@ h3{
 p{
     font-family: 'Poppins', sans-serif;
     color: cornflowerblue;
+   
 }
 .h2{
     color: rgb(255, 247, 0);
 }
-
+.link-button{
+    text-decoration: none;
+}
 .des{
     font-family: 'Poppins', sans-serif;
     color: rgb(4, 178, 213);
+}
+section{
+    display: flex;
+}
+.div1{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.div2{
+    margin: 2% 3% 2%;
+}
+.div3{
+    margin: 2% 3% 2%;
+    text-decoration:none;
+}
+.pra{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(4, 178, 213);
+    text-align: justify;
+    background-color: blue;
 }
