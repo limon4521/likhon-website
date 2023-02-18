@@ -1,49 +1,56 @@
-h1, h2, h3, p{
+h1{
+    color: orange;
     font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+h2{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.h2{
     color: orange;
 }
-
-.link-button{
-    text-decoration: none;
-}
-
-.des{
+h3{
+    color: rgb(174, 173, 174);
     font-family: 'Poppins', sans-serif;
-    color: rgb(4, 178, 213);
+    font-size: 25px;
 }
+p{
+    color: brown;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 
+}
+.description{
+    color: brown;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
 section{
     display: flex;
 }
 
-.div1{
-    margin-top: 100px;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-.div2{
-    margin: 2% 3% 2%;
-}
 
-.pra{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(4, 178, 213);
-    text-align: justify;
-    background-color: blue;
-}
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange , tomato, yellow);
-    padding: 5px 20px;
-    border-radius: 5px;
-}
 
-.top-banner{
-    background-image:url(image/header_bg.png);
-    background-repeat: no-repeat;
-    background-size:10%;
-}
 
-.no-margin{
-    margin:0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
