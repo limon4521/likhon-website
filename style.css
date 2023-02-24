@@ -4,6 +4,10 @@ body {
     margin-left: 0;
 
 }
+p{
+    text-align: justify;
+
+}
 
 h1 {
     color: orange;
@@ -20,6 +24,7 @@ section {
 .half-width {
     width: 100%;
     margin-left: 20px;
+    margin-right: 20px;
 
 }
 
