@@ -8,7 +8,7 @@ p{
     text-align: justify;
 
 }
-.orenge{
+.orenge-color{
     color: orange;
 }
 h1 {
@@ -16,7 +16,13 @@ h1 {
     font-size: 50px;
     margin-top: 12%;
 }
-
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.lio{
+    text-align: left;
+}
 .fexible-containner {
     display: flex;
     margin-bottom: 100px;
@@ -47,4 +53,32 @@ h1 {
     background-image: url(image/header_bbg.png);
     background-repeat: no-repeat;
 
+}
+.developer{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    
+}
+#full-stack-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+   
+    
+
+}
+#front-end-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
